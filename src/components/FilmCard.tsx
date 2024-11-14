@@ -36,6 +36,7 @@ const FilmCard = ({
             <img src={`${currentFilm.Poster}`} alt={`${currentFilm.Title}`} />
           </figure>
           <article className='details'>
+            <h1> Next on the list!</h1>
             <h2>{currentFilm.Title}</h2>
             <p>
               <strong>Directed By:</strong> {currentFilm.Director}
